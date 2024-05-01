@@ -1,0 +1,89 @@
+.back-clientes {
+    background-color: #fff8f6;
+}
+
+.clientes {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width: 1600px;
+}
+
+.title-clientes {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #212a3f;  
+}
+
+
+.span-clientes-1 {
+    background-color:#fc415d;
+    text-transform: uppercase;
+    padding: 6px;
+    font-family: "Inter";
+    color: aliceblue;
+    font-weight: bold;  
+    text-decoration: none;
+}
+
+.span-clientes-2 {
+    background-color:black;
+    text-transform: uppercase;
+    padding: 6px;
+    font-family: "Inter";
+    color: aliceblue;
+    font-weight: bold;  
+    text-decoration: none;
+}
+
+.sub-clientes {
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: #212a3f;
+    line-height: 1.8;
+    margin-top: 50px;
+  }
+
+  .span-clientes-sub {
+    background-color:#fc415d;
+    text-transform: uppercase;
+    padding: 6px;
+    font-family: "Inter";
+    color: aliceblue;
+    font-weight: bold;  
+}
+
+.span-clientes-sub-2 {
+    background-color:black;
+    text-transform: uppercase;
+    padding: 6px;
+    font-family: "Inter";
+    color: aliceblue;
+    font-weight: bold;  
+}
+
+@media only screen and (max-width: 999px) {
+    .title-clientes {
+        font-size: 36px; 
+    }
+    .sub-clientes {
+        font-size: 22px;
+      }
+    
+}
+
+@media only screen and (max-width: 899px) {
+    .back-clientes {
+        display: none;
+    }   
+}
