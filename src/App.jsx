@@ -7,6 +7,7 @@ import Navbar from './components/Navbar'
 import Partners from './components/Partners'
 import { Profile } from './components/Profile'
 import Testimonial from './components/Testimonial'
+import Wp from './components/Wp'
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Exito />
       <Testimonial />
       <Profile />
+      <Wp />
     </>
   )
 }
