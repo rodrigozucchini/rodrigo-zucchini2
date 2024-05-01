@@ -18,7 +18,7 @@ const Header = () => {
           </h2>
         </div>
         
-        <a to="/planes" className="bottom-header">ACCEDE AHORA</a>
+        <a href="https://wa.link/ue0uv8" target="_blank" className="bottom-header">ACCEDE AHORA</a>
         
       </div>
       <div className="column-right-header">

@@ -11,7 +11,7 @@ const Navbar = () => {
         </div>
 
         <div className="div-navbar">
-          <a href="https://wa.link/ue0uv8" className="navlink-last">
+          <a href="https://wa.link/ue0uv8" className="navlink-last" target="_blank">
             LLAMADA ESTRATEGICA
           </a>
         </div>

@@ -68,6 +68,7 @@
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-decoration: none;
     border: 2px solid black;
   }
 
@@ -185,9 +186,7 @@
   }
 
   @media only screen and (max-width: 650px) {
-    .bottom-header {
-      display: none;
-    }
+
     .column-right-header > img {
       display: none;
     }
@@ -204,5 +203,10 @@
   
     .text-span-2 {
       font-size: 22px;
+    }
+    .bottom-header {
+      width: 450px;
+      height: 50px;
+      font-size: 28px;
     }
   }
