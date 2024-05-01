@@ -24,6 +24,6 @@ function App() {
       <Wp />
     </>
   )
-}
+} 
 
 export default App
